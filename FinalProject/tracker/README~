@@ -1,0 +1,18 @@
+Name: Lavanya Muthu
+Clemson Email Address: lmuthu@clemson.edu
+Project no: 5
+Project due date: Nov-25-2015
+Project description:
+(1) Object Pooling, (2) Collisions,
+(3) Explosions, and (4) Projectiles
+Description:
+
+NOTE: The initial instrucions for game stays on for 5 seconds giving time to player to understand the game. Game starts after 5 seconds
+
+1) Implemented object pooling for bullets. A hud displayed fo F2 shows the bullets in freelist and bulletlist and number of active enemies player has to face
+2) g - key for playing mode
+3) r - key to restart game
+4) F1 - help on how to play game
+5) F2 - bullet details and number of enemies to be faced
+6) Player explodes on collision and re appears after chunks vanish
+

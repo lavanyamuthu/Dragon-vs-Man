@@ -1,0 +1,331 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Brian Malloy's Star Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<username>malloy</username>
+<numberOfOrbs>40</numberOfOrbs>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>480</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<bulletName>bullet</bulletName>
+
+<layer1>
+  <file>images/SunLayer1.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <factor>20</factor>
+  <width>854</width>
+  <height>480</height>
+  <transparency>true</transparency>
+</layer1>
+
+<layer2>
+  <file>images/SunLayer2.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <factor>16</factor>
+  <width>854</width>
+  <height>480</height>
+  <transparency>true</transparency>
+</layer2>
+
+<layer3>
+  <file>images/SunLayer3.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <factor>12</factor>
+  <width>854</width>
+  <height>480</height>
+  <transparency>true</transparency>
+</layer3>
+
+<player>
+ <file>images/mega_man_forward_firing_forward_2D.png</file>
+ <startLoc x="220" y="440"/>
+ <frames>4</frames>
+ <frameInterval>30</frameInterval>
+ <srcX>0</srcX>
+ <srcY>0</srcY>
+ <width>89.2</width>
+ <height>48</height>
+ <speedX>250</speedX>
+ <speedY>250</speedY>
+ <transparency>true</transparency>
+ <right>
+  <file>images/mega_man_forward_firing_forward_2D.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>4</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>89.2</width>
+  <height>48</height>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+ </right>
+ <left>
+  <file>images/mega_man_forward_firing_reverse_2D.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>4</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>89.2</width>
+  <height>48</height>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+ </left>
+ <up>
+  <file>images/mega_man_up_2D.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>2</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>54</width>
+  <height>80</height>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+ </up>
+ <down>
+  <file>images/mega_man_down_2D.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>3</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>80.6</width>
+  <height>48</height>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+ </down>
+</player>
+
+<dragon>
+  <file>images/dragon_reverse.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>8</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>147.5</width>
+  <height>158</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</dragon>
+
+<greendragon>
+  <file>images/green_dragon.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>4</frames>
+  <frameInterval>30</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>80</width>
+  <height>60</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</greendragon>
+
+<bullet>
+  <file>images/bullet_forward.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>2</frames>
+  <frameInterval>30</frameInterval>
+  <forwardPositionX>20</forwardPositionX>
+  <forwardPositionY>20</forwardPositionY>
+  <reversePositionX>20</reversePositionX>
+  <reversePositionY>20</reversePositionY>
+  <distance>200</distance>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>69</width>
+  <height>28</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</bullet>
+
+<bulletforward>
+  <file>images/bullet_forward.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>2</frames>
+  <frameInterval>30</frameInterval>
+  <distance>200</distance>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>69</width>
+  <height>28</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</bulletforward>
+
+<bulletreverse>
+  <file>images/bullet_reverse.png</file>
+  <startLoc x="220" y="440"/>
+
+  <frames>2</frames>
+  <frameInterval>30</frameInterval>
+  <distance>200</distance>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>69</width>
+  <height>28</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</bulletreverse>
+
+<rock>
+  <file>images/snowball.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <loc x="320" y="240"/>
+  <startLoc x="320" y="240"/>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</rock>
+
+<rocksmall>
+  <file>images/snowball.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <loc x="320" y="240"/>
+  <startLoc x="320" y="240"/>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</rocksmall>
+
+<rockmedium>
+  <file>images/snowball.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <loc x="320" y="240"/>
+  <startLoc x="320" y="240"/>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</rockmedium>
+
+<rocklarge>
+  <file>images/snowball.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <loc x="320" y="240"/>
+  <startLoc x="320" y="240"/>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</rocklarge>
+
+<back>
+  <file>images/checkerboard.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<spinstar>
+  <file>images/spinstar.png</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>4</frames>
+  <frameInterval>20</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</spinstar>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+</GameData>

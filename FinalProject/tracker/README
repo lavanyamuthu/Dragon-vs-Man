@@ -1,0 +1,22 @@
+Name: Lavanya Muthu
+Clemson Email Address: lmuthu@clemson.edu
+Project no: 6
+Project due date: Dec-4-2015
+Project description:
+Playable game
+Description:
+
+Game details: It is a game - player VS dragons. Dragons guard a dragon's egg which is at the end of world. Player will have to bypass the dragons or kill them on the way to reach the end of world and touch the egg to win the game. There are two types of dragons, red and green. Green dragons are smart, when the player gets closer it changes it direction the player. 
+
+1) HUD, appears for about 3 seconds giving game details and vanishes
+2) g - key for playing mode
+3) r - key to restart game
+4) F1 - help on how to play game
+5) F2 - bullet details and number of enemies to be faced, gives details of object pooling
+6) Player explodes on collision and re appears after chunks vanish
+7) Sound attached for background, explosion and bullet firing. 
+   Source of sound files - http://www.soundjay.com/gun-sound-effect.html - bulllet
+                           http://creativesounddesign.com/the-recordist-free-sound-effects/ - background
+                           http://www.soundjay.com/explosion-sound-effect.html - explosion
+8) Projectiles implemented with bullets
+9) AI implementation - green dragon follows player when player comes very close to the green dragon
